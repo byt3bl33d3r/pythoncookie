@@ -26,7 +26,6 @@ packages = [
 python = "^{{cookiecutter.python_version}}"
 
 [tool.poetry.dev-dependencies]
-black = "*"
 pytest = "*"
 pytest-asyncio = "*"
 flake8 = "*"

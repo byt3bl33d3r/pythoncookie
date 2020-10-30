@@ -1,5 +1,10 @@
 {
     "repo_name": "",
     "app_name": "{{cookiecutter.repo_name|replace(' ', '')|lower}}",
+    "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    "full_name": "",
+    "email": "",
+    "github_username": "",
+    "pypi_username": "{{ cookiecutter.github_username }}",
     "python_version": "3.8.0"
 }

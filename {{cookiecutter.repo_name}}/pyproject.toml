@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "{{cookiecutter.app_name}}"
 version = "0.0.1"
-description = ""
-authors = ["Marcello Salvati <byt3bl33d3r@pm.me>"]
+description = "{{cookiecutter.project_short_description}}"
+authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
 readme = "README.md"
-homepage = "https://github.com/byt3bl33d3r/{{cookiecutter.repo_name}}"
-repository = "https://github.com/byt3bl33d3r/{{cookiecutter.repo_name}}"
+homepage = "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}"
+repository = "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}"
 exclude = ["tests"]
 include = ["LICENSE"]
 license = ""

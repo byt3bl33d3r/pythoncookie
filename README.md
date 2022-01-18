@@ -8,3 +8,4 @@ Features:
 - Uses [Poetry](https://python-poetry.org/) for dependency management & packaging
 - Has a Makefile which automates a few tasks I find myself doing all the time
 - Includes a Dockerfile/.dockerignore file
+- Includes a `.devcontainer` folder to for VSCode

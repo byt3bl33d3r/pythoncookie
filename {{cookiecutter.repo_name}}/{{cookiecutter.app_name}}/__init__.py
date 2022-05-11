@@ -1,3 +1,3 @@
 import importlib.metadata
 
-__version__ = importlib.metadata.version("{{cookiecutter.app_name}}")
+__version__ = importlib.metadata.version(__package__)

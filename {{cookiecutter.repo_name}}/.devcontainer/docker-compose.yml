@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  {{cookiecutter.app_name}}:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    user: vscode
+    command: sleep infinity
+    volumes:
+      # Update this to wherever you want VS Code to mount the folder of your project
+      - ..:/workspace
+    networks:
+      - default
+
+networks:
+  default:
